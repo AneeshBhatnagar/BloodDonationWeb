@@ -1,0 +1,106 @@
+/*
+	Project Name: Blood Donation System
+	Author Name: Aneesh Bhatnagar
+	Author URL: http://www.aneeshbhatnagar.com
+	Author Contact: contact@aneeshbhatnagar.com
+*/
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:active, a:focus, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#ed1b24;
+}
+
+p{
+	color:#484545;
+	text-align: justify;
+}
+
+/* Navbar */
+.navbar-default{
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-brand>img{
+	width:200px;
+	height: auto;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#ed1b24;
+	font-weight: bold;
+	transition:all ease-in-out 0.3s;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li.current>a{
+	color:#b5131a;
+} 
+
+/* Carousel Styling */
+.carousel-control.left, .carousel-control.right{
+	background-image:linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+	color:#000000;
+	opacity: 0.6;
+}
+
+.carousel-control.left:hover, .carousel-control.right:hover{
+	opacity: 1;
+}
+
+/* Main Content Styling */
+.container-main{
+	padding:10px 0;
+	min-height: 85vh;
+}
+
+.container-main .row{
+	margin-top:10px;
+}
+/* Footer Styling */
+footer{
+	background: #ed1b24;
+	font-weight: bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.footer-icon{
+	float:left;
+	height: 35px;
+	width:auto;
+}
+
+footer p{
+	color:#FFFFFF;
+	margin-bottom: 0;
+	line-height: 35px;
+	text-align: center;
+	margin-left:5%;
+}
+
+/* Content Pages Styling */
+.breadcrumb{
+	background:#ffffff;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.breadcrumb>li>a{
+	color:#ed1b24;
+}
+
+.breadcrumb>li>a:hover{
+	color:#bb151c;
+}
